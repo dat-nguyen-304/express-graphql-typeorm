@@ -14,6 +14,7 @@ export const appDataSource = new DataSource({
   entities: [`${baseDir}/modules/**/*.{js,ts}`],
   migrations: [`${baseDir}/migration/*.{js,ts}`],
   connectTimeout: 20000,
+  logging: true,
 });
 
 appDataSource
