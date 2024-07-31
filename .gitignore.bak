@@ -1,0 +1,11 @@
+dist
+node_modules
+.env
+logs/
+local.yml
+backups
+resources/uploads/*
+!resources/uploads/.gitkeep
+docker.env
+.DS_Store
+consulting-242804-1d022afdfecb.json

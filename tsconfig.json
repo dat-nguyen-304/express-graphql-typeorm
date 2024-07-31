@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "baseUrl": "src",
+    "paths": {
+      "@bootstrap/*": ["bootstrap/*"],
+      "@modules/*": ["modules/*"]
+    },
+    "outDir": "dist/"
+  }
+}
